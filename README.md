@@ -18,7 +18,9 @@ Palm co-ordinates will be stored in registered_left/right.json
 
 Make sure your webcam is stable or else the decryption/encryption won't work.
 
-For worst cases, if decryption dosen't works, use file simple.py and the password is mentioned 
+For worst cases, if decryption dosen't works, 
+Delete both .json files and register your palm again.
+Still no then use file simple.py and the password is mentioned 
 in the file.
 
 ⚠️ Disclaimer
