@@ -5,6 +5,7 @@ from Crypto.Protocol.KDF import PBKDF2
 
 FOLDER = 'elements'
 SALT = b'James-Salvatore'  # Must match the salt used for encryption
+# PASSWORD IS Abc123$%45 for this file only .
 
 def unpad(data):
     pad_len = data[-1]
