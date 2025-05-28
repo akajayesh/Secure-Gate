@@ -1,0 +1,191 @@
+1] Now okay, the scripts are ready and now we can implement the GUI. A modern GUI using module customtkinter. Change is will be like:-
+
+1} The gui must have to render the browse option to browse which folder or file user has to lock. 
+2} There must be 2 options one will be file and one will be folder. 
+3} Then, the GUI placement must be in the middle of the screen. 
+4} It must be similar to McAfee antivirus where I can see it perfectly in the middle of my screen. 
+5} The GUI must support all the file types present in the world for encryption & decryption.
+6} There must be option of maximizing the GUI and the fields where user will enter the details must not be misplaced.
+7} Implement GUI by refering the 5 files named as reigster_left.py, register_right.py, new_soln.py , encrypt_jack.py and       
+   decrypt_jack_simple.py (This is in case if the user hasn't placed the camera well so user can use that to decrypt)
+8} Make that modern -- Make it very smooth, even it can run smoothly in an 10th gen core i3 processor. 
+9} Also the gui must display first welcome then proceed for the encryption part.
+10} ***You can tell me here what we can add more but it must be doable for an human***
+
+
+Now remember all these 10 points and Start the process.
+Start and End in this chat only.
+
+2] Very well done! That's a great foundation though! Now start with the implementation of first 4 features you said :-
+- Add a settings page for theme switching (dark/light/system).
+- Show encryption/decryption progress bars for large files/folders.
+- Add a log/history panel for recent actions.
+- Integrate palm registration directly into the GUI (button to launch register_left/right.py).
+
+I have an experience of developing a web UI with you and I hope you will be the same in case of GUI also.
+Start and End in this chat only.
+
+3] You are buiding a consistency streak now! You have to do now:-
+
+1} Go with the connecting the encryption/decryption logic in by referring pt2.py (I am doing this because I want all the logic and program and I will study each and every file and the end!).
+2} You know in websites there is an option of selecting multiple files by pressing shit key and navigation keys. They help to select multiple files. Also provide a feature as when I tap on my mouse pad as move cursor here and there, it creates a blue area and selects   required files.
+3} Don't misplace the old features you implemented for the new ones. You are great with consistency but remember I told you about that McAfee GUI thing. When I maximized that gui, all the fields move to the right side of screen. The field placement in file modern_gui.py are best and refer that file for field placments.
+4} I told you that decrypt_simple will be for fall back! In case if user is not in correct conditions. You have implemented that logic and neverthelessly, the new_soln.py logic is not used. Look for this 
+
+Start and End in this chat. Don't overspeed as overspeeding will cost both of us.
+
+4] Great experience and great efforts! Now I want to tell you that:-
+1} You haven't used the AES library and I can see the encrypting animation but they are not encrypted in reality. 
+
+2} Buttons like register left/right palm are functioning well but there are alignment issues.
+
+3} Also the process is like :-
+   Welcome page with proceed button ->
+   Choose the file/folder for encryption ->
+   Encrypt using AES Algo ->
+   Decrypt using regitered_palm (Fallback is ONLY FOR WORST CONDITONS OF ACCORDING TO OTHER USER) ->
+   Setting for color (User based only) -> 
+   End 
+
+4} So hey, I am here to show my new project made with your earlier version. 
+Now I want you to act as my senior developer and fix the issues occruing in the code. 
+
+1} Very first you don't have to change the entire features for one feature. You just have to change whether its necessary.
+2} Now I am facing issues with decryption after registering. Even I am unable to decrypt the file.
+3} When I encrypt and then click of decrypt button, It replies to me "Please select files to decrypt" even though I have selected.
+4} Also, issues are occuring recursively like if I fix one, then another old one occurs. If I do again then again something occurs.
+   I want you to make sure that this point doesn't occur again.
+
+Now the entire project is in file could_be_final.py and rest are its required scripts.
+
+Fix all these issues and use your 100% power with proper awareness.
+Start and End in this chat.
+
+Problem kay aahe nakki:-
+new_soln backbone aahe.
+Tyat ek ek file decrypt karaychi takat aahe.
+Tyat logic implement karava lagel AOC (ACCORDING to occruing conditions)
+
+5] 
+
+The files encrypt_jack.py, simple.py , new_sol.py and register_left & register_right are backbone of using_AES.py.
+new_sol can decrypt  whole folder when it is used independently. But using_aes file, it does decryption one by one.
+Is my decision of encrypting file different and folder different good? 
+Because Windows has no inbuilt applock and in android the approach of applock is very similar to encrypt in folder.
+I don't know about IOS for now.
+You tell me whether we must remove the option of encrypting file one by one and just keep only folder encryption & decryption system?
+
+6]
+But from the current scenario, we must go with folder based only becasue I have discussed a lot of problems, fixes and issues with you and sometimes the results were fine. Sometimes results were not same. I feel we must go with folder encryption as bulk encryption will be faster (i don't know much but you can come up if I am wrong.)
+
+Even I use to lock a whole folder using .bat file and then entering a key and it was similar to AES encryption style.
+
+Reply in this chat only.
+
+7] Now you have to do:-
+1} The current UI is best from my side.
+  Just remove the file selecting option as I wrote earlier and don't misplae the old fields.
+2} Rest color combo is great -- it was my idea you just followed my instruction lol
+
+3} I am not an orderer, we both have same contribution.
+
+7] 
+Congrats for both of us. We have solved that issue. 
+Now the main problem is with decryption process using palm.
+1} When I scan my palm, the app displays Unlocked message at frontend 
+but in backend the story is different.
+2} Why is this even occuring? new_sol.py decrypts fastly, doesn't takes time 
+   but GUI is taking a lot.
+3} What could be the best fix here?
+
+4} Implement the solution without misplacing all the fields and previously implemented
+   features. Humble request!
+ Start and End in this chat only.
+
+8] Hey Trae, we are moving towards the end goal.
+ 1} So I told you about the one by one encryption earlier.
+   GUI is still asking me for one by one decryption else decrypting whole folder.
+
+ 2} Why is this ? new_sol script just decrypts straight away. 
+
+ 3} Implement fix for this issue in this chat only.
+
+9] 
+DONE!!! TEARS OF HAPPINESS! 
+THIS project is going to level up my resume! Thank You so Much ChatGpt / TRAE !! 
+
+But, Wait our core part is over now but there are some minor changes and 
+I would like to implement now itself.
+
+1} I after selecting the files to encrypt, I have to select the files again to decrypt.
+This is not productive although
+2} Also, when the GUI is displayed, some part of that display box is inside the screen.
+  Take that slightlhy upwards so it will be better for displaying purposes.
+3} I have to press control + c to close the camera after registering palm.
+   Implement something for camera which will lead to close directly after
+   the palms are registered (for both right and left)
+4} Do all this without misplacing all the previously implemented features/
+  fields/fucntions
+5} Implement all this in this chat itself.
+
+10] 
+Our project is may be complete but its still not decent enough.
+
+1} The palm recognition works well, but if the palm goes wrong then fallback also goes down.
+
+2} Scenario is like when I encrypt the folder in my directory for another time,
+ the decrypt logic doesn't works properly.
+
+3} It doesn't works now as I tried with another folder also.
+4} Implement the fixes in this chat only. 
+
+Okay , I am here to fix my current project. I built it using your features
+Now I want to make it reboust using your features
+
+1} I want to remove that file encryption and keep only folder encryption
+option. This will make sure the folder is encrypted only.
+2} After selecting the folders of encryption, the selected folders must be decrypted
+only. User must not browse files again for decryption.
+3} There must be only batch encryption and decryption. Like after selecting full folder, 
+  the folder must be decrypted not one file and one bye one. 
+4} In register_files for both right and left, after the rendering of those scripts, I have to press ctrl + c 
+  for stopping camera. Fix that logic also.
+5} While implementing, don't misplace previous features/fields/anything.
+
+Implement all these fixes/features in this chat only.
+
+Everything was great as planned.
+Now do the following things:-
+1} I have to select the files for decryption after encrypting. I told you that 
+   this decreases productivity.
+   Fix this issue by keeping the encrypted folder as the folder to decrypt.
+   No other selection after selecting the folder for encryption.
+
+2} I also told you about decyrpting all files present in folder once.
+  The files are decrypting once, but still the script is running and asking 
+  my palm for decryption although the files are decrypted.
+
+Fix above issues in top.py
+Start and End in this chat only.
+
+11] Great job! Our core part is ready. 
+We have to improve the UI now.
+
+1} Make font style modern. Change it to segeo ui.
+2} Font increase the font size and it must be good for displaying.
+3} When the GUI is displayed, the messagebox part of it inside the taskbar of my windows and I have to take up all the time. Fix that also.
+4} Buttons after welcome page must be like :-
+   1) First will be select folder and clear selection
+   2) Then box which displays all files which are ready for encryption.
+   3) Then further buttons will be :-
+    a) Encrypt    b) Decrypt
+    c) Reg_right  d) Reg_left
+       
+           e) settings
+   {Please follow the following abc format for my buttons!}
+5} At the bottom, there will be messagebox.
+
+Remember Implement all these UI fixes without touching
+old implemented features/fields as our core part is over
+
+Start & End in this chat only.
